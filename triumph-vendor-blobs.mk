@@ -195,18 +195,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/system/caf/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/motorola/triumph/system/caf/libqc-opt.so:system/lib/libqc-opt.so
 
-# Prebuilt libraries for CAF Chromium plug-ins
-PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/system/caf/libcneapiclient.so:/system/lib/libcneapiclient.so \
-    vendor/motorola/triumph/system/caf/libcneqmiutils.so:/system/lib/libcneqmiutils.so \
-    vendor/motorola/triumph/system/caf/libdiag.so:/system/lib/libdiag.so \
-    vendor/motorola/triumph/system/caf/libdnshostprio.so:/system/lib/libdnshostprio.so \
-    vendor/motorola/triumph/system/caf/libnetmonitor.so:/system/lib/libnetmonitor.so \
-    vendor/motorola/triumph/system/caf/libtcpfinaggr.so:/system/lib/libtcpfinaggr.so \
-    vendor/motorola/triumph/system/caf/pp_proc_plugin.so:/system/lib/pp_proc_plugin.so \
-    vendor/motorola/triumph/system/caf/qnet-plugin.so:/system/lib/qnet-plugin.so \
-    vendor/motorola/triumph/system/caf/tcp-connections.so:/system/lib/tcp-connections.so
-
 # Prebuilt Adreno 2xx libraries
 PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/system/etc/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
