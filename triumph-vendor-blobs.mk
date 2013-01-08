@@ -157,6 +157,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/thermald:system/bin/thermald \
     vendor/motorola/triumph/proprietary/sensors.qcom.so:/system/lib/hw/sensors.triumph.so
 
+# HW Triumph libs
+PRODUCT_COPY_FILES += \
+    vendor/motorola/triumph/proprietary/lights.goldfish.so:system/lib/hw/lights.goldfish.so \
+    vendor/motorola/triumph/proprietary/lights.triumph.so:system/lib/hw/lights.triumph.so
+
 # Copyright (C) 2012 Qualcomm Developer Network
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
